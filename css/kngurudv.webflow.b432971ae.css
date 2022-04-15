@@ -1,4 +1,4 @@
-/* Generated on: Fri Apr 15 2022 23:52:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Apr 15 2022 23:53:06 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -13176,10 +13176,10 @@ a {
     position: absolute;
     left: auto;
     top: 0%;
-    right: -272px;
+    right: -304px;
     bottom: 0%;
     z-index: -1;
-    width: 500px;
+    width: 600px;
     max-width: none;
     margin-top: 0px;
   }
