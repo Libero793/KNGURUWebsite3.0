@@ -1,4 +1,4 @@
-/* Generated on: Fri Apr 15 2022 16:12:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Apr 15 2022 23:52:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10361,7 +10361,7 @@ a {
 
   .herohomesection {
     overflow: hidden;
-    height: auto;
+    height: 100vh;
     max-height: none;
     padding-bottom: 35px;
     -webkit-box-pack: end;
@@ -10374,6 +10374,10 @@ a {
   .homeherowrapper {
     z-index: 10;
     max-height: none;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
@@ -10429,7 +10433,7 @@ a {
   .subheading {
     width: 100%;
     margin-bottom: 32px;
-    color: #b1b1b1;
+    color: #fff;
     font-size: 18px;
     line-height: 26px;
     font-weight: 300;
@@ -13166,6 +13170,18 @@ a {
     background-image: url("/images/61fda5b74ce7485d5cb3d919_Group%20%281%29.png");
     background-position: 0% 0%;
     background-size: auto 150%;
+  }
+
+  .mobileheroknguru {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: -272px;
+    bottom: 0%;
+    z-index: -1;
+    width: 500px;
+    max-width: none;
+    margin-top: 0px;
   }
 }
 
