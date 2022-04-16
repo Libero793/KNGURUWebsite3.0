@@ -1,4 +1,4 @@
-/* Generated on: Sat Apr 16 2022 23:56:59 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Apr 16 2022 23:57:44 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4523,8 +4523,8 @@ a {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), color-stop(90%, #080909));
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0), #080909 90%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, rgba(255, 0, 0, 0)), color-stop(90%, #080909));
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 75%, #080909 90%);
 }
 
 .designsection {
