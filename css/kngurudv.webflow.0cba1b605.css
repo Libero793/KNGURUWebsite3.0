@@ -1,4 +1,4 @@
-/* Generated on: Sat Apr 16 2022 00:04:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Apr 16 2022 23:32:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8295,6 +8295,10 @@ a {
   height: 200px;
 }
 
+.mobileheroknguru {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 16px;
@@ -8493,7 +8497,7 @@ a {
   }
 
   .herohomesection {
-    height: 90vh;
+    height: 100vh;
     background-image: none;
   }
 
@@ -8503,6 +8507,10 @@ a {
 
   .homeherowrapper {
     padding-bottom: 0px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .herologocontainer {
@@ -9514,7 +9522,12 @@ a {
   }
 
   .mobilebackgroundimage {
-    display: none;
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: -392px;
+    bottom: 0%;
+    display: block;
   }
 
   .blogpostlistmobile {
@@ -9615,6 +9628,10 @@ a {
 
   .lottie-animation {
     width: 500px;
+  }
+
+  .mobileheroknguru {
+    display: none;
   }
 }
 
@@ -13234,6 +13251,7 @@ a {
     right: -304px;
     bottom: 0%;
     z-index: -1;
+    display: block;
     width: 600px;
     max-width: none;
     margin-top: 0px;
