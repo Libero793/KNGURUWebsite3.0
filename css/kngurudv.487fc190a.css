@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 23:01:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 23:05:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10807,12 +10807,16 @@ a {
     text-align: left;
   }
 
+  .textblocksmall.grey.center.leftalignmobile {
+    margin-top: 0px;
+  }
+
   .textblocksmall.width90 {
     width: 100%;
   }
 
   .textblocksmall.grey.textblockdiagramm {
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .textblocksmall.lightwhite {
@@ -11104,6 +11108,10 @@ a {
     padding-bottom: 0px;
     font-size: 28px;
     line-height: 36px;
+  }
+
+  .h2.seoblocktitle {
+    margin-bottom: 10px;
   }
 
   .h2.center {
@@ -11734,6 +11742,8 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
 
   ._2colcontentgird.downloadappcontentgrid {
@@ -11840,6 +11850,8 @@ a {
   .intextdivider {
     width: 100px;
     height: 4px;
+    margin-top: 0px;
+    margin-bottom: 12px;
   }
 
   .div-block-23 {
@@ -11931,12 +11943,21 @@ a {
     padding-bottom: 60px;
   }
 
+  .seosection.projectseosection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   .prototypesection {
     padding-bottom: 60px;
   }
 
   .prototypetextwrapper {
     width: 100%;
+  }
+
+  .prototypepreviewwrapper {
+    margin-bottom: 22px;
   }
 
   .boxeffectwrapper {
