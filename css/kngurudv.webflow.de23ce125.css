@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 00:05:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 00:07:48 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5823,6 +5823,7 @@ a {
 }
 
 .numberbubbleactive.marginright {
+  margin-top: 5px;
   margin-right: 14px;
 }
 
