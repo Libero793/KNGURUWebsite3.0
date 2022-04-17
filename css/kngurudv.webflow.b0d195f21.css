@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 00:13:20 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 00:15:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3916,9 +3916,9 @@ a {
 }
 
 .herosection.designherosection {
-  height: auto;
+  height: 90vh;
   padding-top: 0px;
-  padding-bottom: 22px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4312,7 +4312,7 @@ a {
 }
 
 ._2colcontentgird.designherocol {
-  height: 100%;
+  height: 90%;
   -ms-grid-columns: 1fr 1.25fr;
   grid-template-columns: 1fr 1.25fr;
 }
@@ -5396,7 +5396,7 @@ a {
 }
 
 .designherowrapper {
-  height: auto;
+  height: 90vh;
 }
 
 .designherogifwrapper {
@@ -5427,12 +5427,13 @@ a {
 }
 
 .brandbardesktop {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 36px;
-  margin-top: 32px;
+  margin-top: 0px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
