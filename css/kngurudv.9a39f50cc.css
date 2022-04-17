@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 23:00:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 23:01:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11880,7 +11880,7 @@ a {
   }
 
   .slidehiddenwrapper {
-    display: block;
+    display: none;
     overflow: scroll;
     width: 110%;
     -webkit-box-align: start;
