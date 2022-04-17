@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 23:09:05 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 23:38:41 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10811,6 +10811,10 @@ a {
     margin-top: 0px;
   }
 
+  .textblocksmall.grey.center.fullwidth {
+    text-align: left;
+  }
+
   .textblocksmall.width90 {
     width: 100%;
   }
@@ -11296,7 +11300,7 @@ a {
     width: 300px;
     max-width: 300px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 18px;
@@ -11352,9 +11356,7 @@ a {
 
   .h4 {
     width: 90%;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0px;
   }
 
   .h4.review {
@@ -11370,6 +11372,17 @@ a {
 
   .h4.centertext.alignleftmobile {
     width: 100%;
+    text-align: left;
+  }
+
+  .h4.centermobile {
+    width: 100%;
+    text-align: left;
+  }
+
+  .h4.designtitle {
+    width: 100%;
+    font-size: 22px;
     text-align: left;
   }
 
@@ -11711,6 +11724,10 @@ a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .textlinkelementtext {
+    font-size: 14px;
   }
 
   .caseherobackground {
@@ -12300,7 +12317,9 @@ a {
   }
 
   .designkeypoints {
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #161616;
   }
 
   .designkeypointscontentwrapper {
@@ -12325,21 +12344,22 @@ a {
   }
 
   .designkeypointscontentrow {
-    margin-bottom: 52px;
-    -webkit-box-orient: vertical;
+    margin-top: 35px;
+    margin-bottom: 4px;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .designkeypointsrowwrap {
-    margin-top: 16px;
-    margin-left: 0px;
+    margin-top: -5px;
+    margin-left: 24px;
     padding-left: 5px;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -12379,14 +12399,12 @@ a {
   }
 
   .designclientreviews {
+    padding-top: 60px;
     padding-bottom: 120px;
   }
 
   .designprocess {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -12405,7 +12423,7 @@ a {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
   }
 
   .designcostcontentwrapper {
@@ -12438,6 +12456,10 @@ a {
     background-size: auto;
   }
 
+  .designfaq {
+    padding-bottom: 0px;
+  }
+
   .spacer80.hidemobile {
     display: none;
   }
@@ -12449,18 +12471,39 @@ a {
   .numberbubbleactive.marginright {
     min-height: 30px;
     min-width: 30px;
-    margin-top: -5px;
-    padding-top: 2px;
+    margin-top: 4px;
+    padding-top: 1px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .designprocessimagewrapper {
     display: none;
     overflow: hidden;
-    margin-top: 32px;
+    max-height: 275px;
+    margin-top: 0px;
+    margin-bottom: 32px;
   }
 
   .designprocessimagewrapper.show {
     display: block;
+    max-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .designprocesscontentwrapper {
+    min-height: 600px;
+    padding: 22px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#161616), to(#161616));
+    background-image: linear-gradient(180deg, #161616, #161616);
   }
 
   .videocallimage {
@@ -12470,6 +12513,10 @@ a {
   .designprocesssubheadingcontainer {
     margin-top: 16px;
     margin-bottom: 10px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .designprocessgrid {
@@ -12478,10 +12525,12 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .wireframeanddraftimage {
@@ -12877,7 +12926,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    height: 100vh;
+    height: 0vh;
     margin-top: 60px;
     padding-top: 0px;
     padding-right: 0px;
@@ -13123,7 +13172,7 @@ a {
     display: flex;
     height: 420px;
     margin-top: 0px;
-    margin-bottom: -48px;
+    margin-bottom: -40px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -13140,12 +13189,15 @@ a {
     top: 0px;
     right: 0px;
     bottom: 0%;
+    z-index: 1;
     display: block;
     width: 420px;
+    opacity: 1;
   }
 
   .designprocesswrappermobile {
-    padding-top: 120px;
+    display: none;
+    padding-top: 72px;
     padding-bottom: 120px;
   }
 
@@ -13166,7 +13218,8 @@ a {
   }
 
   .processslidemobile {
-    margin-right: 0px;
+    width: 90%;
+    margin-right: 4%;
     background-color: rgba(5, 5, 5, 0);
   }
 
@@ -13334,6 +13387,10 @@ a {
     top: 0px;
   }
 
+  .designpricing {
+    padding-top: 60px;
+  }
+
   .designpricingpackagescontainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -13416,6 +13473,11 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .html-embed-12 {
+    position: relative;
+    z-index: 2;
   }
 }
 
