@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 22:54:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 22:56:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11852,13 +11852,14 @@ a {
 
   .diagrammsection {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     background-color: #050505;
   }
 
   .diagramwrapper {
-    width: 120%;
-    height: 420px;
+    width: auto;
+    height: 520px;
+    margin-top: 0px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -11866,8 +11867,9 @@ a {
   }
 
   .diagrammfade {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), color-stop(90%, #050505));
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0), #050505 90%);
+    margin-top: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(71%, rgba(255, 0, 0, 0)), color-stop(90%, #050505));
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0) 71%, #050505 90%);
   }
 
   .designsection {
@@ -11878,7 +11880,7 @@ a {
   }
 
   .slidehiddenwrapper {
-    display: none;
+    display: block;
     overflow: scroll;
     width: 110%;
     -webkit-box-align: start;
@@ -13056,6 +13058,7 @@ a {
   }
 
   .image-25 {
+    width: auto;
     height: 100%;
     max-width: none;
   }
