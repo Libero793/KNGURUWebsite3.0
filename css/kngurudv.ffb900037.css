@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 23:38:41 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 23:42:24 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11701,10 +11701,21 @@ a {
   }
 
   .filteroptionscontainer {
+    width: 100vw;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .filter {
+    min-width: 120px;
+    margin-right: 14px;
+  }
+
+  .filtername {
+    min-width: 120px;
+    margin-left: 0px;
   }
 
   .slidergrid {
@@ -11720,14 +11731,18 @@ a {
   }
 
   .textlinkelement {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .textlinkelementtext {
     font-size: 14px;
+  }
+
+  .filternameselected {
+    min-width: 120px;
   }
 
   .caseherobackground {
