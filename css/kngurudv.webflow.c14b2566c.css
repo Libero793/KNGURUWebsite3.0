@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 00:16:43 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 00:37:46 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4104,6 +4104,10 @@ a {
   display: block;
 }
 
+.gridslidercontainer.slidergrid7 {
+  display: none;
+}
+
 .gridslideritem {
   width: auto;
   height: auto;
@@ -4189,6 +4193,7 @@ a {
   display: flex;
   width: auto;
   height: 100%;
+  max-height: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5524,7 +5529,7 @@ a {
   width: 100%;
   height: 100%;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -8316,6 +8321,18 @@ a {
 
 .mobileheroknguru {
   display: none;
+}
+
+.gridslideimagewrapper {
+  overflow: hidden;
+  max-height: 300px;
+  min-height: 300px;
+}
+
+.featuredblogbostimagewrapper {
+  overflow: hidden;
+  max-height: 300px;
+  min-height: 300px;
 }
 
 @media screen and (max-width: 991px) {
