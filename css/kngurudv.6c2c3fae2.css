@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 01:33:55 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 22:23:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11650,10 +11650,11 @@ a {
 
   .heroimagewrapper {
     max-width: 350px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    margin-top: 18px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .menuspacer {
@@ -11703,10 +11704,11 @@ a {
 
   .casestudyheroimage {
     position: relative;
-    top: 0%;
-    width: 90%;
+    top: auto;
+    right: auto;
+    width: 140%;
     height: auto;
-    margin-top: 32px;
+    margin-top: -41px;
   }
 
   ._2colcontentgird {
@@ -11855,10 +11857,7 @@ a {
   }
 
   .slidehiddenwrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     overflow: scroll;
     width: 110%;
     -webkit-box-align: start;
@@ -11884,8 +11883,11 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    overflow: hidden;
     width: 240px;
+    max-height: 520px;
     margin-right: 20px;
+    margin-bottom: 42px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -11897,7 +11899,7 @@ a {
   }
 
   .designsliderwrapper {
-    display: none;
+    display: block;
   }
 
   .seosection {
@@ -12939,10 +12941,10 @@ a {
     display: flex;
     padding-top: 100px;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -13248,6 +13250,7 @@ a {
 
   .herosectionproject {
     height: auto;
+    padding-top: 0px;
   }
 
   .herosectionproject.designherosection {
