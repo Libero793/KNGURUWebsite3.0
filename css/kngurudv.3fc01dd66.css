@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 22:23:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 22:30:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2071,6 +2071,7 @@ a {
 }
 
 .textblocksmall.grey.center.leftalignmobile {
+  margin-top: 20px;
   color: #e2e2e2;
 }
 
@@ -2486,6 +2487,8 @@ a {
 }
 
 .h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 38px;
   line-height: 48px;
   font-weight: 600;
@@ -4358,6 +4361,10 @@ a {
   margin-top: 24px;
 }
 
+.casechallengetext.textblocksmall {
+  margin-top: 0px;
+}
+
 .casechallengetext.textblocksmall.grey {
   padding-right: 47px;
 }
@@ -4695,7 +4702,7 @@ a {
 }
 
 .moreprojectssection {
-  background-color: #050505;
+  background-color: #000;
 }
 
 .previousprojectshinttext {
@@ -10914,7 +10921,7 @@ a {
   }
 
   .contentwrapperbackground {
-    padding-top: 0px;
+    padding-top: 60px;
   }
 
   .contentwrapperbackground._1 {
@@ -11650,7 +11657,7 @@ a {
 
   .heroimagewrapper {
     max-width: 350px;
-    margin-top: 18px;
+    margin-top: 0px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -11706,9 +11713,14 @@ a {
     position: relative;
     top: auto;
     right: auto;
-    width: 140%;
+    width: 540px;
     height: auto;
-    margin-top: -41px;
+    margin-top: 0px;
+  }
+
+  .firstcontentsection {
+    padding-top: 20px;
+    padding-bottom: 42px;
   }
 
   ._2colcontentgird {
@@ -11783,6 +11795,10 @@ a {
     flex-direction: column-reverse;
   }
 
+  .casechallengetext.textblocksmall {
+    margin-top: 8px;
+  }
+
   .casechallengetext.textblocksmall.grey {
     margin-top: 14px;
     padding-right: 0px;
@@ -11791,6 +11807,10 @@ a {
   .casechallengetextwrapper {
     margin-top: 10px;
     padding-left: 0px;
+  }
+
+  .image-9 {
+    margin-bottom: 16px;
   }
 
   .designteasersection {
@@ -11942,12 +11962,39 @@ a {
     margin-right: 0px;
   }
 
+  .moreprojectssection {
+    background-color: #000;
+  }
+
+  .nextprojectwrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .previousprojectshinttext {
+    margin-bottom: 8px;
+  }
+
+  .moreprojectsprojectnamecontainer {
+    margin-top: 16px;
+  }
+
   .previousarrow {
     display: none;
   }
 
+  .nextprojectshinttext {
+    margin-bottom: 8px;
+  }
+
   .nextprojectslinkblock {
-    margin-top: 48px;
+    margin-top: 28px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -12939,7 +12986,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 100px;
+    padding-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -13313,6 +13360,10 @@ a {
     background-size: auto 150%;
   }
 
+  .video-2 {
+    width: 350px;
+  }
+
   .mobileheroknguru {
     position: absolute;
     left: auto;
@@ -13328,6 +13379,17 @@ a {
 
   .projectvideo {
     width: 100%;
+  }
+
+  .collection-list-wrapper-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
