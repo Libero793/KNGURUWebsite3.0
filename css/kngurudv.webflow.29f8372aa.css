@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 00:41:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 00:49:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -132,7 +132,7 @@ a {
   overflow: visible;
   width: 100%;
   height: auto;
-  background-color: transparent;
+  background-color: #050505;
 }
 
 .inner-container {
@@ -2614,7 +2614,7 @@ a {
 
 .bodyabout {
   overflow: visible;
-  background-color: #000;
+  background-color: red;
 }
 
 .menuwrapper {
@@ -4036,6 +4036,10 @@ a {
   font-weight: 400;
 }
 
+.filter.hide {
+  display: none;
+}
+
 .filtername {
   position: relative;
   z-index: 2;
@@ -5318,6 +5322,7 @@ a {
 
 .teamgrid {
   width: 70%;
+  margin-top: 34px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto auto auto auto auto auto;
@@ -5329,8 +5334,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding-top: 19px;
+  padding-bottom: 19px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
