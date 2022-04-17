@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 00:11:54 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 17 2022 00:13:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3918,7 +3918,7 @@ a {
 .herosection.designherosection {
   height: auto;
   padding-top: 0px;
-  padding-bottom: 120px;
+  padding-bottom: 22px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5432,6 +5432,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: 36px;
+  margin-top: 32px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
