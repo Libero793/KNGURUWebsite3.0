@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 12:18:10 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 12:19:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11690,6 +11690,7 @@ a {
   }
 
   .gridsliderfilterwrapper {
+    overflow: scroll;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
