@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 13:16:58 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 13:32:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6012,7 +6012,8 @@ a {
 }
 
 .designprocesshandofimage {
-  max-width: none;
+  width: 100%;
+  max-width: 100%;
   margin-left: -176px;
 }
 
