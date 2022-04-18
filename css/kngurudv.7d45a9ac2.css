@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 12:19:19 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 12:21:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11717,6 +11717,10 @@ a {
   .filtername {
     min-width: 120px;
     margin-left: 0px;
+  }
+
+  .gridslidercontainer.slidergrid2 {
+    display: none;
   }
 
   .gridslideritem {
