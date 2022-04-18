@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 12:29:08 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 12:57:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4561,7 +4561,7 @@ a {
 
 .slidehiddenwrapper {
   position: relative;
-  display: block;
+  display: none;
   overflow: visible;
   width: 100vw;
 }
@@ -4675,7 +4675,7 @@ a {
 .boxeffectbackground {
   width: 100%;
   height: 100%;
-  background-color: #080909;
+  background-color: #050505;
 }
 
 .bodylightblack {
@@ -5612,7 +5612,7 @@ a {
 .designkeypointsimagedesktop {
   position: absolute;
   left: auto;
-  top: -180px;
+  top: -60px;
   right: -170px;
   bottom: 0%;
   display: block;
@@ -8305,7 +8305,7 @@ a {
 .loadinganimationwrapper {
   position: fixed;
   z-index: 999;
-  display: block;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
@@ -10157,7 +10157,7 @@ a {
   .heading-medium {
     font-size: 2.7em;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
   }
 
   .heading-medium.text-center.calendly-heading {
@@ -10333,10 +10333,10 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .img-inner-link {
@@ -12154,12 +12154,12 @@ a {
     overflow: hidden;
     height: auto;
     max-height: none;
-    padding-top: 80px;
+    padding-top: 0px;
     padding-bottom: 45px;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     background-color: #000;
     background-image: none;
   }
@@ -12170,6 +12170,7 @@ a {
 
   .aboutusherocontentwrapper {
     height: auto;
+    margin-top: 26px;
   }
 
   .aboutusheroimagewrapper {
@@ -12191,10 +12192,12 @@ a {
   }
 
   .image-14 {
-    width: auto;
+    width: 240px;
     height: 220px;
     max-width: none;
-    margin-right: 25px;
+    margin-right: 12px;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .image-15 {
@@ -12204,13 +12207,19 @@ a {
   }
 
   .image-16 {
-    width: auto;
+    width: 240px;
     height: 220px;
     max-width: none;
     margin-top: 0px;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: auto;
     height: auto;
     -webkit-box-pack: start;
