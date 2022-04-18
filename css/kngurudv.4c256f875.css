@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 14:28:57 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 14:32:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -8310,7 +8310,7 @@ a {
 .loadinganimationwrapper {
   position: fixed;
   z-index: 999;
-  display: none;
+  display: block;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
