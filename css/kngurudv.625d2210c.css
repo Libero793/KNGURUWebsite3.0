@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 12:21:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 12:24:34 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11720,7 +11720,27 @@ a {
   }
 
   .gridslidercontainer.slidergrid2 {
-    display: none;
+    display: block;
+  }
+
+  .gridslidercontainer.slidergrid3 {
+    display: block;
+  }
+
+  .gridslidercontainer.slidergrid4 {
+    display: block;
+  }
+
+  .gridslidercontainer.slidergrid5 {
+    display: block;
+  }
+
+  .gridslidercontainer.slidergrid6 {
+    display: block;
+  }
+
+  .gridslidercontainer.slidergrid7 {
+    display: block;
   }
 
   .gridslideritem {
@@ -11742,9 +11762,9 @@ a {
   .gridslideritemimage {
     position: relative;
     display: block;
-    width: auto;
-    height: 100%;
-    max-width: none;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 
   .textlinkelement {
