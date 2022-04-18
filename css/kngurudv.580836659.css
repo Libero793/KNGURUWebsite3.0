@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 14:27:46 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 14:28:57 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1769,7 +1769,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
+  background-color: #050505;
 }
 
 .arrow-icon {
@@ -2292,6 +2292,7 @@ a {
   z-index: 1;
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #050505;
 }
 
 .contentwrapperbackground.black._2 {
