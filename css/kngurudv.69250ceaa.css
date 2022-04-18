@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 14:15:34 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 14:17:05 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7942,6 +7942,7 @@ a {
 }
 
 .pricingpackageheadcontainer {
+  min-height: 200px;
   margin-top: 22px;
   padding: 23px 24px 28px;
   border-top: 5px solid #727272;
@@ -7949,12 +7950,14 @@ a {
 }
 
 .pricingpackageheadcontainer.premium {
+  min-height: 200px;
   margin-top: 22px;
   padding-top: 23px;
   border-top: 5px solid #fcd702;
 }
 
 .pricingpackageheadcontainer.business {
+  min-height: 200px;
   padding-top: 23px;
   border-top-color: #0098fd;
 }
