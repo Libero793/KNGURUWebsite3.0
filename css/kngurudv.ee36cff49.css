@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 17 2022 23:42:24 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Apr 18 2022 12:18:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -11718,6 +11718,10 @@ a {
     margin-left: 0px;
   }
 
+  .gridslideritem {
+    margin-bottom: 0px;
+  }
+
   .slidergrid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -11728,6 +11732,14 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .gridslideritemimage {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 100%;
+    max-width: none;
   }
 
   .textlinkelement {
@@ -12060,6 +12072,11 @@ a {
 
   .nextarrow.mobilearrow {
     display: block;
+  }
+
+  .featuredblogpostcontentwrapper {
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
   .heroblogpost {
@@ -13477,6 +13494,24 @@ a {
 
   .projectvideo {
     width: 100%;
+  }
+
+  .gridslideimagewrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .collection-list-wrapper-3 {
