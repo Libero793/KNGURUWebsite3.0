@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 12:19:38 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 12:21:31 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5167,8 +5167,8 @@ a {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 9, 9, 0.99)), color-stop(16%, rgba(8, 9, 9, 0.68)), color-stop(53%, rgba(8, 9, 9, 0)), color-stop(71%, #080909)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.77)), to(rgba(0, 0, 0, 0.77))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
-  background-image: linear-gradient(180deg, rgba(8, 9, 9, 0.99), rgba(8, 9, 9, 0.68) 16%, rgba(8, 9, 9, 0) 53%, #080909 71%), linear-gradient(180deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 9, 9, 0.99)), color-stop(16%, rgba(8, 9, 9, 0.68)), color-stop(53%, rgba(8, 9, 9, 0)), color-stop(71%, #080909)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: linear-gradient(180deg, rgba(8, 9, 9, 0.99), rgba(8, 9, 9, 0.68) 16%, rgba(8, 9, 9, 0) 53%, #080909 71%), linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
   background-position: 0px 0px, 0px 0px, 50% 100%;
   background-size: auto, auto, auto;
 }
