@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 11:14:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 11:19:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4161,7 +4161,7 @@ a {
 
 .slidehiddenwrapper {
   position: relative;
-  display: none;
+  display: block;
   overflow: visible;
   width: 100vw;
 }
@@ -4177,9 +4177,11 @@ a {
 }
 
 .designsliderimage {
-  width: 276px;
+  width: auto;
   height: 598px;
+  max-height: 70vh;
   max-width: none;
+  margin-right: 30px;
   border-radius: 15px;
   cursor: -webkit-grab;
   cursor: grab;
