@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 12:21:31 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 12:35:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1975,8 +1975,8 @@ a {
 .contentwrapperbackground._3 {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
   background-position: 0px 0px, 0% 50%;
   background-size: auto, auto;
   opacity: 1;
@@ -1999,8 +1999,8 @@ a {
 .contentwrapperbackground.designteaser {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -2024,13 +2024,17 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .contentwrapperbackground.featuredblogpostcontainer {
   padding-top: 160px;
   padding-bottom: 60px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72))), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/images/61aab412062c504311fada10_Instagram%20post%20-%2096.webp");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -2085,8 +2089,8 @@ a {
   padding-top: 80px;
   padding-bottom: 80px;
   border-top: 2px solid #fcd702;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -2104,8 +2108,8 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, auto;
 }
@@ -3898,8 +3902,8 @@ a {
   margin-top: 0px;
   margin-right: 0%;
   margin-bottom: 0%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/61ef3ce282c70d6d64ed235a_Mask%20Group%20%281%29.png");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/61ef3ce282c70d6d64ed235a_Mask%20Group%20%281%29.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url("/images/61ef3ce282c70d6d64ed235a_Mask%20Group%20%281%29.png");
+  background-image: linear-gradient(180deg, transparent, transparent), url("/images/61ef3ce282c70d6d64ed235a_Mask%20Group%20%281%29.png");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -4285,7 +4289,7 @@ a {
 
 .bodylightblack {
   overflow: visible;
-  background-color: #080909;
+  background-color: #0d0e0e;
 }
 
 .dowloadbadgescontainer {
@@ -4307,7 +4311,7 @@ a {
 }
 
 .moreprojectssection {
-  background-color: #000;
+  background-color: #050505;
 }
 
 .previousprojectshinttext {
@@ -4703,7 +4707,7 @@ a {
   right: 0%;
   bottom: auto;
   height: 560px;
-  background-image: url("/images/61fdc3bbd400c16142228452_Mask%20Group%20%283%29.png");
+  background-image: url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -4835,10 +4839,9 @@ a {
   position: absolute;
   width: 100%;
   height: 420px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url("/images/6203092876f5aa72ee31b8df_Mask%20Group%20%284%29.png");
-  background-image: linear-gradient(180deg, transparent, transparent), url("/images/6203092876f5aa72ee31b8df_Mask%20Group%20%284%29.png");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-image: url("/images/6208614eb3a35562bacd80af_Frame%2055%20%281%29.png");
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .aboutusimageslidercontainer {
@@ -5167,8 +5170,8 @@ a {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 9, 9, 0.99)), color-stop(16%, rgba(8, 9, 9, 0.68)), color-stop(53%, rgba(8, 9, 9, 0)), color-stop(71%, #080909)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
-  background-image: linear-gradient(180deg, rgba(8, 9, 9, 0.99), rgba(8, 9, 9, 0.68) 16%, rgba(8, 9, 9, 0) 53%, #080909 71%), linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 9, 9, 0.99)), color-stop(16%, rgba(8, 9, 9, 0.68)), color-stop(53%, rgba(8, 9, 9, 0)), color-stop(71%, #0d0e0e)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
+  background-image: linear-gradient(180deg, rgba(8, 9, 9, 0.99), rgba(8, 9, 9, 0.68) 16%, rgba(8, 9, 9, 0) 53%, #0d0e0e 71%), linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/images/61aab412062c506f2efada0f_Instagram%20post%20-%2094.webp");
   background-position: 0px 0px, 0px 0px, 50% 100%;
   background-size: auto, auto, auto;
 }
@@ -5192,6 +5195,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background-color: #0d0e0e;
 }
 
 .designkeypointscontentrow {
@@ -5239,11 +5243,12 @@ a {
   overflow: hidden;
   width: 100%;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background-color: #050505;
 }
 
 .designprocess {
@@ -5254,11 +5259,12 @@ a {
   display: flex;
   height: auto;
   min-height: auto;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #050505;
 }
 
 .designcost {
@@ -6070,7 +6076,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #050505;
+  background-color: #0d0e0e;
 }
 
 .appdevcalccontentwrapper {
@@ -6657,6 +6663,7 @@ a {
   display: flex;
   overflow: hidden;
   width: 100%;
+  padding-top: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6670,6 +6677,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #050505;
 }
 
 .designpricingheadlinecontainer {
