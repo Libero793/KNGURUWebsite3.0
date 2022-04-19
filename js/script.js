@@ -1383,7 +1383,7 @@ window.addEventListener('mousemove', e => {
     }
 
     
-},passive);
+},{passive: true});
 
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
@@ -1395,7 +1395,7 @@ canvas.addEventListener('touchstart', e => {
         let posY = scaleByPixelRatio(touches[i].pageY);
         updatePointerDownData(pointers[i + 1], touches[i].identifier, posX, posY);
     }
-},passive);
+},{passive: true});
 
 canvas.addEventListener('touchmove', e => {
     e.preventDefault();
@@ -1417,7 +1417,7 @@ window.addEventListener('touchend', e => {
         if (pointer == null) continue;
         updatePointerUpData(pointer);
     }
-},passive);
+},{passive: true});
 
 window.addEventListener('keydown', e => {
     if (e.code === 'KeyP')
