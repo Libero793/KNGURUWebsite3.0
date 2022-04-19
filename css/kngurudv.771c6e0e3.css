@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 10:53:44 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 10:56:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1413,6 +1413,10 @@ a {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contentwrapper.horizontalflex.leftalign {
@@ -5294,7 +5298,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding-top: 100px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5362,7 +5366,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 50px;
-  height: 600px;
+  height: 500px;
   margin-right: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5463,7 +5467,7 @@ a {
 
 .progressbarout {
   width: 2px;
-  height: 70px;
+  height: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #403a16;
