@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://knguru.de/sitemap.xml
