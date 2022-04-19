@@ -4933,7 +4933,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url("/images/62030ee5dcd0f61792e7bd75_Group%2018978.webp");
+  background-image: url("/images/62030ee5dcd0f61792e7bd75_Group%2018978.png");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -6713,8 +6713,8 @@ a {
 }
 
 .pricingpackagecontainer.business {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/62044d6977f319f2e533cbc5_Group%2018940.webp");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/62044d6977f319f2e533cbc5_Group%2018940.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/62044d6977f319f2e533cbc5_Group%2018940.png");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/62044d6977f319f2e533cbc5_Group%2018940.png");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, auto;
 }
