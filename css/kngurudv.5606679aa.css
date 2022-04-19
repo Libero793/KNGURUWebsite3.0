@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 11:26:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 11:54:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2014,7 +2014,7 @@ a {
 
 .contentwrapperbackground.wavesbackground.designbackground {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2098,7 +2098,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -4162,8 +4162,9 @@ a {
 .slidehiddenwrapper {
   position: relative;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: 100vw;
+  height: 0px;
 }
 
 .slidehiddencontainer {
@@ -10266,8 +10267,8 @@ a {
   }
 
   .slidehiddenwrapper {
-    display: none;
-    overflow: scroll;
+    display: block;
+    overflow: hidden;
     width: 110%;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
