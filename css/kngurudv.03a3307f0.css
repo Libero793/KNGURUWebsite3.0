@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 11:11:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 11:12:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -6357,7 +6357,7 @@ a {
 
 .phoneslideanimationmobile {
   position: relative;
-  display: none;
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6367,6 +6367,11 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.phoneslidemobileimage {
+  width: 100%;
+  border-radius: 50px;
 }
 
 .desktopprimarybuttonleft {
