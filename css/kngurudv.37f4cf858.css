@@ -1,4 +1,4 @@
-/* Generated on: Tue Apr 19 2022 10:40:13 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 10:44:23 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3542,7 +3542,9 @@ a {
 }
 
 .herosection.designherosection {
+  overflow: hidden;
   height: 90vh;
+  max-width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-pack: center;
@@ -5076,6 +5078,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
+  max-width: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5158,6 +5162,7 @@ a {
 }
 
 .designshowcasemockupdesktop {
+  max-width: 90%;
   margin-top: 56px;
 }
 
@@ -5228,7 +5233,15 @@ a {
 
 .designprocess {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .designcost {
@@ -5327,6 +5340,10 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .designprocessprogressbar {
