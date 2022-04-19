@@ -1,76 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://www.knguru.de/</loc>
+      <loc>https://kngurudv.webflow.io/</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/datenschutz</loc>
+      <loc>https://kngurudv.webflow.io/datenschutz</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/gewinnspiele</loc>
+      <loc>https://kngurudv.webflow.io/gewinnspiele</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/impressum</loc>
+      <loc>https://kngurudv.webflow.io/impressum</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/meetus</loc>
+      <loc>https://kngurudv.webflow.io/meetus</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/thankyou</loc>
+      <loc>https://kngurudv.webflow.io/thankyou</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/projects</loc>
+      <loc>https://kngurudv.webflow.io/projects</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/blog-posts</loc>
+      <loc>https://kngurudv.webflow.io/blog-posts</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/about-us</loc>
+      <loc>https://kngurudv.webflow.io/about-us</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/app-design</loc>
+      <loc>https://kngurudv.webflow.io/app-design</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/app-development</loc>
+      <loc>https://kngurudv.webflow.io/app-development</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/contact</loc>
+      <loc>https://kngurudv.webflow.io/contact</loc>
    </url>
    <url>
-      <loc>https://www.knguru.de/applaunch</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/project/leipzig-beatzz</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/project/buildyown</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/project/nineunder</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/project/player-planet</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/project/freebies</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/welche-entwicklungskosten-entstehen-fur-apps</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/die-vorteile-einer-cross-plattform-app</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/app-entwicklung-wie-verlauft-die-android-programmierung</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/digitalisierungspotenzial-mit-apps-fur-unternehmen</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/app-idee-programmieren-lassen-und-geld-verdienen-so-gehts</loc>
-   </url>
-   <url>
-      <loc>https://www.knguru.de/post/app-entwickeln-die-unterschiede-zwischen-android-und-ios</loc>
+      <loc>https://kngurudv.webflow.io/applaunch</loc>
    </url>
 
 </urlset>
