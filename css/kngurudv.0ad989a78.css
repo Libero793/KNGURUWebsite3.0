@@ -1,4 +1,4 @@
-/* Generated on: Mon Apr 18 2022 17:24:27 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 19 2022 10:40:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1206,6 +1206,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  min-height: 900px;
   margin-bottom: 0px;
   padding-top: 120px;
   padding-bottom: 0px;
@@ -3549,6 +3550,10 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #050505;
+}
+
+.herosection.heroprojectssection {
+  min-height: 750px;
 }
 
 .projectsherowrapper {
@@ -7007,7 +7012,7 @@ a {
 .loadinganimationwrapper {
   position: fixed;
   z-index: 999;
-  display: block;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-pack: center;
