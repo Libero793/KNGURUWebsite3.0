@@ -1394,6 +1394,9 @@ window.addEventListener("pointermove", e => {
         console.log("y"+posY);
         console.log("x"+posX);
 
+        let pointer = pointers[0];
+        if (!pointer.down) return;
+
         if(posY>0){   //shouldnt appear in menu 
             updatePointerMoveData(pointer, posX, posY);
         }
