@@ -1385,6 +1385,23 @@ window.addEventListener('mousemove', e => {
     
 },{passive: true});
 
+window.addEventListener('pointermove', e => {
+    let pointer = pointers[0];
+    if (!pointer.down) return;
+    
+    let posX = scaleByPixelRatio(e.pageX);
+    let posY = scaleByPixelRatio(e.pageY);
+
+    console.log("y"+posY);
+    console.log("x"+posY);
+
+    if(posY>0){   //shouldnt appear in menu 
+        updatePointerMoveData(pointer, posX, posY);
+    }
+
+    
+},{passive: true});
+
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
     const touches = e.targetTouches;
