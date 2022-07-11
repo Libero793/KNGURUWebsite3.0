@@ -1368,7 +1368,7 @@ window.addEventListener('load', e=> {
     //console.log("init")
 })
 
-/*
+
 window.addEventListener('mousemove', e => {
     let pointer = pointers[0];
     if (!pointer.down) return;
@@ -1384,8 +1384,9 @@ window.addEventListener('mousemove', e => {
     }
 
     
-},{passive: true});*/
+},{passive: true});
 
+/*
 window.addEventListener("pointermove", e => {
     let pointer = pointers[0];
     if (!pointer.down) return;
@@ -1400,7 +1401,7 @@ window.addEventListener("pointermove", e => {
         updatePointerMoveData(pointer, posX, posY);
     }
 });
-/*
+
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
     const touches = e.targetTouches;
