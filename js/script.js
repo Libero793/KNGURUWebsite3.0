@@ -1375,8 +1375,8 @@ window.addEventListener('mousemove', e => {
     let posX = scaleByPixelRatio(e.pageX);
     let posY = scaleByPixelRatio(e.pageY);
 
-    //console.log("y"+posY);
-    //console.log("x"+posY);
+    console.log("y"+posY);
+    console.log("x"+posY);
 
     if(posY>0){   //shouldnt appear in menu 
         updatePointerMoveData(pointer, posX, posY);
