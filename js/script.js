@@ -1393,6 +1393,10 @@ window.addEventListener("pointermove", e => {
         let posY = scaleByPixelRatio(g.pageY);
         console.log("y"+posY);
         console.log("x"+posX);
+
+        if(posY>0){   //shouldnt appear in menu 
+            updatePointerMoveData(pointer, posX, posY);
+        }
     }
 });
 
