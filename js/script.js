@@ -1400,7 +1400,7 @@ window.addEventListener("pointermove", e => {
         updatePointerMoveData(pointer, posX, posY);
     }
 });
-
+/*
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
     const touches = e.targetTouches;
@@ -1425,7 +1425,7 @@ canvas.addEventListener('touchmove', e => {
     }
 }, false);
 
-/*
+
 window.addEventListener('touchend', e => {
     const touches = e.changedTouches;
     for (let i = 0; i < touches.length; i++)
