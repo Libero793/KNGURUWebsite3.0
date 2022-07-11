@@ -1425,6 +1425,7 @@ canvas.addEventListener('touchmove', e => {
     }
 }, false);
 
+/*
 window.addEventListener('touchend', e => {
     const touches = e.changedTouches;
     for (let i = 0; i < touches.length; i++)
@@ -1441,6 +1442,7 @@ window.addEventListener('keydown', e => {
     if (e.key === ' ')
         splatStack.push(parseInt(Math.random() * 20) + 5);
 });
+*/
 
 function updatePointerDownData (pointer, id, posX, posY) {
     pointer.id = id;
