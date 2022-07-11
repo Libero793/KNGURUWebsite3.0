@@ -1387,19 +1387,17 @@ window.addEventListener('mousemove', e => {
 },{passive: true});*/
 
 window.addEventListener("pointermove", e => {
-    let events = e.getCoalescedEvents();
-    for(let g of events) {
-        let posX = scaleByPixelRatio(g.pageX);
-        let posY = scaleByPixelRatio(g.pageY);
-        console.log("y"+posY);
-        console.log("x"+posX);
+    let pointer = pointers[0];
+    if (!pointer.down) return;
+    
+    let posX = scaleByPixelRatio(e.pageX);
+    let posY = scaleByPixelRatio(e.pageY);
 
-        let pointer = pointers[0];
-        if (!pointer.down) return;
+    //console.log("y"+posY);
+    //console.log("x"+posY);
 
-        if(posY>0){   //shouldnt appear in menu 
-            updatePointerMoveData(pointer, posX, posY);
-        }
+    if(posY>0){   //shouldnt appear in menu 
+        updatePointerMoveData(pointer, posX, posY);
     }
 });
 
