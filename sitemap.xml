@@ -94,6 +94,9 @@
       <loc>https://www.knguru.de/signup</loc>
    </url>
    <url>
+      <loc>https://www.knguru.de/signup-discount</loc>
+   </url>
+   <url>
       <loc>https://www.knguru.de/sitemap.xml</loc>
    </url>
    <url>
@@ -122,6 +125,9 @@
    </url>
    <url>
       <loc>https://www.knguru.de/thankyou</loc>
+   </url>
+   <url>
+      <loc>https://www.knguru.de/welcome</loc>
    </url>
 
 </urlset>
