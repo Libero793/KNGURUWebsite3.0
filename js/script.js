@@ -1365,7 +1365,7 @@ window.addEventListener('load', e=> {
         pointer = new pointerPrototype();
     updatePointerDownData(pointer, -1, posX, posY);
 
-    //console.log("init")
+    console.log("init")
 })
 
 
