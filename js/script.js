@@ -1378,6 +1378,7 @@ canvas.addEventListener('mousemove', e => {
         if (pointer == null)
             pointer = new pointerPrototype();
         updatePointerDownData(pointer, -1, posX, posY);
+        firstMove = false;
     }else{
         if (!pointer.down) return;
         updatePointerMoveData(pointer, posX, posY);
