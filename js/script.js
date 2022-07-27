@@ -1377,7 +1377,7 @@ window.addEventListener('mousemove', e => {
     let posY = scaleByPixelRatio(e.pageY);
 
     let out = document.getElementsByClassName("h1hero");
-    out[0].innerHTML=pointer["texcoordX"];
+    out[0].innerHTML=pointer["speed"];
     
     console.log(pointer);
 
@@ -1468,6 +1468,8 @@ function updatePointerMoveData (pointer, posX, posY) {
     pointer.deltaX = correctDeltaX(pointer.texcoordX - pointer.prevTexcoordX);
     pointer.deltaY = correctDeltaY(pointer.texcoordY - pointer.prevTexcoordY);
     pointer.moved = Math.abs(pointer.deltaX) > 0 || Math.abs(pointer.deltaY) > 0;
+    pointer.speed = getTime()-pointer.time;
+    pointer.time = getTime();
 }
 
 function updatePointerUpData (pointer) {
