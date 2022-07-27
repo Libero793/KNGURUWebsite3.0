@@ -1356,7 +1356,7 @@ function correctRadius (radius) {
     return radius;
 }
 
-window.addEventListener('mousemove', e=> {
+window.addEventListener('mousedown', e=> {
 
     let posX = scaleByPixelRatio(e.pageX);
     let posY = scaleByPixelRatio(e.pageY);
