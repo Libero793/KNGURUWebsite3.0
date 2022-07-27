@@ -1367,6 +1367,13 @@ canvas.addEventListener('mousedown', e => {
         pointer = new pointerPrototype();
     updatePointerDownData(pointer, -1, posX, posY);
 });*/
+window.addEventListener("load", e => {
+    var mousedown = $.Event("mousedown");
+    mousedown.pageX = 100;
+    mousedown.pageY = 1000;
+    element.trigger(mousedown);
+});
+
 
 canvas.addEventListener('mousemove', e => {
     let pointer = pointers[0];
