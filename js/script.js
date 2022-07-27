@@ -1377,7 +1377,9 @@ window.addEventListener('mousemove', e => {
     let posY = scaleByPixelRatio(e.pageY);
 
     let out = document.getElementsByClassName("h1hero");
-    out[0].innerHTML="pos X"+posX+" - pos y"+posY;
+    out[0].innerHTML="array"+pointers.length;
+    
+    updatePointerMoveData(pointer, posX, posY);
 
     
 },{passive: true});
