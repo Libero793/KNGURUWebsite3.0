@@ -1368,16 +1368,21 @@ canvas.addEventListener('mousedown', e => {
     updatePointerDownData(pointer, -1, posX, posY);
 });
 
+let firstMove = true;
 canvas.addEventListener('mousemove', e => {
     let pointer = pointers[0];
-    if (pointer == null)
-        pointer = new pointerPrototype();
-    updatePointerDownData(pointer, -1, posX, posY);
-
-    if (!pointer.down) return;
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
-    updatePointerMoveData(pointer, posX, posY);
+
+    if(firstMove){
+        if (pointer == null)
+            pointer = new pointerPrototype();
+        updatePointerDownData(pointer, -1, posX, posY);
+    }else{
+        if (!pointer.down) return;
+        updatePointerMoveData(pointer, posX, posY);
+    }
+
 });
 
 window.addEventListener('mouseup', () => {
