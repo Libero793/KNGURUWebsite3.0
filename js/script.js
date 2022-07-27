@@ -1356,7 +1356,7 @@ function correctRadius (radius) {
     return radius;
 }
 
-window.addEventListener('mousemove', e=> {
+window.addEventListener('mousdown', e=> {
 
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
@@ -1474,7 +1474,7 @@ function updatePointerMoveData (pointer, posX, posY) {
 }
 
 function updatePointerUpData (pointer) {
-    pointer.down = false;
+    //pointer.down = false;
 }
 
 function correctDeltaX (delta) {
