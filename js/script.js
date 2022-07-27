@@ -1377,7 +1377,7 @@ window.addEventListener('mousemove', e => {
     let posY = scaleByPixelRatio(e.pageY);
 
     let out = document.getElementsByClassName("h1hero");
-    //out[0].innerHTML="array"+pointers.length;
+    out[0].innerHTML="pointer"+pointer;
     
     updatePointerMoveData(pointer, posX, posY);
 
