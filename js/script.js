@@ -1358,7 +1358,7 @@ function correctRadius (radius) {
         radius *= aspectRatio;
     return radius;
 }
-
+/*
 canvas.addEventListener('mousedown', e => {
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
@@ -1366,7 +1366,7 @@ canvas.addEventListener('mousedown', e => {
     if (pointer == null)
         pointer = new pointerPrototype();
     updatePointerDownData(pointer, -1, posX, posY);
-});
+});*/
 
 canvas.addEventListener('mousemove', e => {
     let pointer = pointers[0];
@@ -1435,6 +1435,7 @@ function updatePointerDownData (pointer, id, posX, posY) {
 }
 
 function updatePointerMoveData (pointer, posX, posY) {
+    pointer.down = true;
     pointer.prevTexcoordX = pointer.texcoordX;
     pointer.prevTexcoordY = pointer.texcoordY;
     pointer.texcoordX = posX / canvas.width;
