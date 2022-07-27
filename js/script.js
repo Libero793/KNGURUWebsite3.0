@@ -1376,6 +1376,7 @@ canvas.addEventListener('mousedown', e => {
 });
 
 canvas.addEventListener('mousemove', e => {
+    canvas.dispatchEvent(new Event('mousedown'));
     let pointer = pointers[0];
     //if (!pointer.down) return;
     let posX = scaleByPixelRatio(e.offsetX);
