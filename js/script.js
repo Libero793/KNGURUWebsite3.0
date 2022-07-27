@@ -1358,8 +1358,8 @@ function correctRadius (radius) {
 
 window.addEventListener('mousdown', e=> {
 
-    let posX = scaleByPixelRatio(e.offsetX);
-    let posY = scaleByPixelRatio(e.offsetY);
+    let posX = scaleByPixelRatio(e.pageX);
+    let posY = scaleByPixelRatio(e.pageY);
     let pointer = pointers.find(p => p.id == -1);
     if (pointer == null)
         pointer = new pointerPrototype();
