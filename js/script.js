@@ -1359,7 +1359,7 @@ function correctRadius (radius) {
     return radius;
 }
 
-window.addEventListener('onload',e =>{
+window.addEventListener('load',e =>{
     canvas.dispatchEvent(new Event('mousedown'));
     console.log("load");
 });
