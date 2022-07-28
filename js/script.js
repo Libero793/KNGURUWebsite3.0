@@ -1370,7 +1370,7 @@ canvas.addEventListener('mousedown', e => {
 });
 
 setTimeout(() => {
-    window.addEventListener('mousemove', e => {
+    canvas.addEventListener('mousemove', e => {
         let posX = scaleByPixelRatio(e.pageX);
         let posY = scaleByPixelRatio(e.pageY);
         console.log("y"+posY);
