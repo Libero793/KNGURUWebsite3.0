@@ -1367,16 +1367,16 @@ canvas.addEventListener('mousedown', e => {
         pointer = new pointerPrototype();
     updatePointerDownData(pointer, -1, posX, posY);
 });*/
-window.addEventListener("load", e => {
+
+
+
+canvas.addEventListener('mousemove', e => {
     var mousedown = $.Event("mousedown");
     var element = $(canvas);
     mousedown.pageX = 100;
     mousedown.pageY = 1000;
     element.trigger(mousedown);
-});
 
-
-canvas.addEventListener('mousemove', e => {
     let pointer = pointers[0];
     if (!pointer.down) return;
     let posX = scaleByPixelRatio(e.offsetX);
@@ -1410,9 +1410,6 @@ function updatePointerMoveData (pointer, posX, posY) {
     pointer.moved = Math.abs(pointer.deltaX) > 0 || Math.abs(pointer.deltaY) > 0;
 }
 
-function updatePointerUpData (pointer) {
-    pointer.down = false;
-}
 
 function correctDeltaX (delta) {
     let aspectRatio = canvas.width / canvas.height;
