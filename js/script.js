@@ -1361,8 +1361,8 @@ function correctRadius (radius) {
 }
 
 canvas.addEventListener('mousedown', e => {
-    let posX = scaleByPixelRatio(e.offsetX);
-    let posY = scaleByPixelRatio(e.offsetY);
+    let posX = scaleByPixelRatio(e.pageX);
+    let posY = scaleByPixelRatio(e.pageY);
     let pointer = pointers.find(p => p.id == -1);
     if (pointer == null)
         pointer = new pointerPrototype();
@@ -1371,15 +1371,15 @@ canvas.addEventListener('mousedown', e => {
 
 setTimeout(() => {
     canvas.addEventListener('mousemove', e => {
-      let posX = scaleByPixelRatio(e.offsetX)
-      let posY = scaleByPixelRatio(e.offsetY)
+    let posX = scaleByPixelRatio(e.pageX);
+    let posY = scaleByPixelRatio(e.pageY);
       updatePointerMoveData(pointers[0], posX, posY)
     })
   }, 500)
 
 window.addEventListener('mouseup', () => {
     updatePointerUpData(pointers[0]);
-});
+},{passive: true});
 
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
