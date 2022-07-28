@@ -1375,7 +1375,7 @@ setTimeout(() => {
         let posY = scaleByPixelRatio(e.pageY);
         updatePointerMoveData(pointers[0], posX, posY)
     })
-  }, 500)
+  }, 1000)
 
 window.addEventListener('mouseup', () => {
     updatePointerUpData(pointers[0]);
