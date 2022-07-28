@@ -1371,7 +1371,7 @@ window.addEventListener("load", e => {
     var mousedown = $.Event("mousedown");
     mousedown.pageX = 100;
     mousedown.pageY = 1000;
-    element.trigger(mousedown);
+    canvas.trigger(mousedown);
 });
 
 
