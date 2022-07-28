@@ -1370,16 +1370,16 @@ canvas.addEventListener('mousedown', e => {
 });
 
 setTimeout(() => {
-    window.addEventListener('mousemove', e => {
-        let posX = scaleByPixelRatio(e.pageX);
-        let posY = scaleByPixelRatio(e.pageY);
-        updatePointerMoveData(pointers[0], posX, posY)
+    canvas.addEventListener('mousemove', e => {
+      let posX = scaleByPixelRatio(e.offsetX)
+      let posY = scaleByPixelRatio(e.offsetY)
+      updatePointerMoveData(pointers[0], posX, posY)
     })
   }, 500)
 
 window.addEventListener('mouseup', () => {
     updatePointerUpData(pointers[0]);
-},{passive: true});
+});
 
 canvas.addEventListener('touchstart', e => {
     e.preventDefault();
