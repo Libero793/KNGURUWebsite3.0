@@ -1370,10 +1370,12 @@ canvas.addEventListener('mousedown', e => {
 });
 
 setTimeout(() => {
-    canvas.addEventListener('mousemove', e => {
-    let posX = scaleByPixelRatio(e.pageX);
-    let posY = scaleByPixelRatio(e.pageY);
-      updatePointerMoveData(pointers[0], posX, posY)
+    window.addEventListener('mousemove', e => {
+        let posX = scaleByPixelRatio(e.pageX);
+        let posY = scaleByPixelRatio(e.pageY);
+        console.log("y"+posY);
+        console.log("x"+posY);
+        updatePointerMoveData(pointers[0], posX, posY)
     })
   }, 500)
 
