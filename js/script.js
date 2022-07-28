@@ -1,6 +1,4 @@
-import WebglFluid from 'https://cdn.skypack.dev/webgl-fluid@0.0.4'
-
-WebglFluid(document.getElementById('fluidCanvas'), {
+window['webgl-fluid'](document.getElementById('fluidCanvas'), {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
