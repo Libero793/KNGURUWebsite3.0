@@ -26,4 +26,5 @@ WebglFluid(document.getElementById('fluidCanvas'), {
     SUNRAYS: true,
     SUNRAYS_RESOLUTION: 196,
     SUNRAYS_WEIGHT: 1.0,
+    TRIGGER: 'hover',
 })
