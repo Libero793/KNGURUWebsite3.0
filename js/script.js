@@ -1369,9 +1369,10 @@ canvas.addEventListener('mousedown', e => {
 });*/
 window.addEventListener("load", e => {
     var mousedown = $.Event("mousedown");
+    var element = $(canvas);
     mousedown.pageX = 100;
     mousedown.pageY = 1000;
-    canvas.trigger(mousedown);
+    element.trigger(mousedown);
 });
 
 
