@@ -24,9 +24,10 @@ SOFTWARE.
 
 'use strict';
 
+
 // Simulation section
 
-const canvas = document.getElementById('fluidCanvas');
+const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
 let config = {
@@ -65,7 +66,7 @@ function pointerPrototype () {
     this.prevTexcoordY = 0;
     this.deltaX = 0;
     this.deltaY = 0;
-    this.down = true;
+    this.down = false;
     this.moved = false;
     this.color = [30, 0, 300];
 }
@@ -85,6 +86,7 @@ if (!ext.supportLinearFiltering) {
     config.BLOOM = false;
     config.SUNRAYS = false;
 }
+
 
 
 function getWebGLContext (canvas) {
@@ -176,6 +178,7 @@ function supportRenderTextureFormat (gl, internalFormat, format, type) {
     let status = gl.checkFramebufferStatus(gl.FRAMEBUFFER);
     return status == gl.FRAMEBUFFER_COMPLETE;
 }
+
 
 
 function isMobile () {
@@ -1358,7 +1361,7 @@ function correctRadius (radius) {
         radius *= aspectRatio;
     return radius;
 }
-/*
+
 canvas.addEventListener('mousedown', e => {
     let posX = scaleByPixelRatio(e.offsetX);
     let posY = scaleByPixelRatio(e.offsetY);
@@ -1366,17 +1369,9 @@ canvas.addEventListener('mousedown', e => {
     if (pointer == null)
         pointer = new pointerPrototype();
     updatePointerDownData(pointer, -1, posX, posY);
-});*/
-
-
+});
 
 canvas.addEventListener('mousemove', e => {
-    var mousedown = $.Event("mousedown");
-    var element = $(canvas);
-    mousedown.pageX = 100;
-    mousedown.pageY = 1000;
-    element.trigger(mousedown);
-
     let pointer = pointers[0];
     if (!pointer.down) return;
     let posX = scaleByPixelRatio(e.offsetX);
@@ -1384,8 +1379,50 @@ canvas.addEventListener('mousemove', e => {
     updatePointerMoveData(pointer, posX, posY);
 });
 
+window.addEventListener('mouseup', () => {
+    updatePointerUpData(pointers[0]);
+});
 
+canvas.addEventListener('touchstart', e => {
+    e.preventDefault();
+    const touches = e.targetTouches;
+    while (touches.length >= pointers.length)
+        pointers.push(new pointerPrototype());
+    for (let i = 0; i < touches.length; i++) {
+        let posX = scaleByPixelRatio(touches[i].pageX);
+        let posY = scaleByPixelRatio(touches[i].pageY);
+        updatePointerDownData(pointers[i + 1], touches[i].identifier, posX, posY);
+    }
+});
 
+canvas.addEventListener('touchmove', e => {
+    e.preventDefault();
+    const touches = e.targetTouches;
+    for (let i = 0; i < touches.length; i++) {
+        let pointer = pointers[i + 1];
+        if (!pointer.down) continue;
+        let posX = scaleByPixelRatio(touches[i].pageX);
+        let posY = scaleByPixelRatio(touches[i].pageY);
+        updatePointerMoveData(pointer, posX, posY);
+    }
+}, false);
+
+window.addEventListener('touchend', e => {
+    const touches = e.changedTouches;
+    for (let i = 0; i < touches.length; i++)
+    {
+        let pointer = pointers.find(p => p.id == touches[i].identifier);
+        if (pointer == null) continue;
+        updatePointerUpData(pointer);
+    }
+});
+
+window.addEventListener('keydown', e => {
+    if (e.code === 'KeyP')
+        config.PAUSED = !config.PAUSED;
+    if (e.key === ' ')
+        splatStack.push(parseInt(Math.random() * 20) + 5);
+});
 
 function updatePointerDownData (pointer, id, posX, posY) {
     pointer.id = id;
@@ -1410,6 +1447,9 @@ function updatePointerMoveData (pointer, posX, posY) {
     pointer.moved = Math.abs(pointer.deltaX) > 0 || Math.abs(pointer.deltaY) > 0;
 }
 
+function updatePointerUpData (pointer) {
+    pointer.down = false;
+}
 
 function correctDeltaX (delta) {
     let aspectRatio = canvas.width / canvas.height;
