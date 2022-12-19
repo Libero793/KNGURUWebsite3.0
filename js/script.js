@@ -1070,9 +1070,9 @@ multipleSplats(parseInt(Math.random() * 20) + 5);
 
 let lastUpdateTime = Date.now();
 let colorUpdateTimer = 0.0;
-update();
+updateFluid();
 
-function update () {
+function updateFluid () {
     const dt = calcDeltaTime();
     if (resizeCanvas())
         initFramebuffers();
@@ -1081,7 +1081,7 @@ function update () {
     if (!config.PAUSED)
         step(dt);
     render(null);
-    requestAnimationFrame(update);
+    requestAnimationFrame(updateFluid);
 }
 
 function calcDeltaTime () {
